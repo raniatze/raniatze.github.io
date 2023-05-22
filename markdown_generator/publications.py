@@ -61,7 +61,6 @@ def html_escape(text):
 
 # In[5]:
 
-'''
 import os
 for row, item in publications.iterrows():
     
@@ -103,28 +102,5 @@ for row, item in publications.iterrows():
     
     md_filename = os.path.basename(md_filename)
        
-    with open("../_publications/" + md_filename, 'w') as f:
+    with open("../_publications/", 'w') as f:
         f.write(md)
-'''
-
-import os
-
-md_filename = "publications.md"  # Output Markdown filename
-
-## YAML variables
-
-md = "---\nlayout: page\ntitle: Publications\n---\n\n"  # Markdown content
-
-for row, item in publications.iterrows():
-    md += "### " + item.title + "\n"
-    md += "Venue: " + item.venue + "\n"
-    md += "Date: " + str(item.pub_date) + "\n"
-    md += "Citation: " + item.citation + "\n"
-    if len(str(item.excerpt)) > 5:
-        md += "Excerpt: " + item.excerpt + "\n"
-    if len(str(item.paper_url)) > 5:
-        md += "Download: [" + item.title + "](" + item.paper_url + ")\n"
-    md += "\n"
-
-with open("../_publications/" + md_filename, 'w') as f:
-    f.write(md)
