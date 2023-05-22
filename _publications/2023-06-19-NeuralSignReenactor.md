@@ -1,8 +1,6 @@
 ---
 title: "Neural Sign Reenactor: Deep Photo-realistic Sign Language Retargeting"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-date: 2023-06-19
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)'
 ---
 Christina Ourania Tze, Panagiotis P. Filntisis, Athanasia-Lida Dimou, Anastasios Roussos, and Petros Maragos
