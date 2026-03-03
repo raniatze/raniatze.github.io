@@ -1,8 +1,3 @@
-- 👋 Hi, I’m Mariliza Tzes
-- 👀 I’m interested in robots operating in uncertain and/or unknown environments
-- 📫 You can reach me at mtzes@seas.upenn.edu
+- 👋 Hi, I’m Christina Ourania Tze
+- 📫 You can reach me at christina.tze@uni-tuebingen.de
 
-<!---
-mtzes/mtzes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
